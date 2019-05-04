@@ -10,7 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 public class PropertiesConfiguration {
 
     @Bean
-    @ConfigurationProperties(prefix = "basicDatasourceConfig")
+    @ConfigurationProperties(prefix = "basic-datasource-config")
     public BasicDatasourceConfigProperties basicDatasourceConfigProperties() {
         return new BasicDatasourceConfigProperties();
     }
